@@ -1,5 +1,8 @@
 # Mur_ecran
-Voici la partie affichage du Mur d'écran
+Voici la partie affichage du Mur d'écran :
+Nous avons mis au point deux serveurs pour ce projet. Le premier serveur, lui aussi écrit en C++, permet de recevoir les données des clients et de les enregistrer dans des fichiers selon leur extension. Il peut traiter les extensions JPEG, JSON et SO, et enregistre les données reçues dans les fichiers correspondants. Par ailleurs, il crée un fichier texte contenant le message "1" pour dire au premier serveur qu'une image doit être envoyée aux écrans.  
+Le second serveur, basé sur le langage C++, est destiné à recevoir les requêtes des clients. Le serveur utilise des sockets pour communiquer avec les clients via Ethernet. Cependant, il faudrait rajouter qu’une fois que le serveur a finie d’envoyer les données à tous les contrôleurs, qu’il remplace le 1 pour mettre 0 dans le fichier texte afin qu’il sache qu’il ne faut plus envoyer les données automatiquement
+Ces deux serveurs sont des éléments-clés de notre système, nous permettant de recevoir les demandes des clients, de traiter les données et d'afficher des images sur les écrans. Ils peuvent être mieux automatisés, le second serveur pourrait être mieux sécurisé en disposant d'un serveur DHCP pour donner aux clients une adresse IP statique. En revanche, pour notre temps et nos spécifications, les serveurs sont fonctionnels.
 
 INSTALLATION OPENCV : 
 Commande à effectuer sur la raspberry : 
