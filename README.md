@@ -18,4 +18,4 @@ Voici l’ordre des commandes à entrer :
 CMAKE_INSTALL_PREFIX=/usr/local .. // Configurer la compilation 
 9. sudo make install // Installer et compiler opencv. 
 10. #include <opencv2/opencv.hpp> // Mettre en tête d’un fichier source c++ pour que opencv fonctionne. 
-11. g++ votre_code.cpp -o votre_code `pkg-conig --clags --libs opencv4` // Remplacer votre_code par le nom du fichier à compiler. 
+11. g++ votre_code.cpp -o votre_code `pkg-config --cflags --libs opencv4` // Remplacer votre_code par le nom du fichier à compiler. 
