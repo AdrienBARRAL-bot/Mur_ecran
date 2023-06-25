@@ -1,0 +1,100 @@
+{ 
+"setting": { 
+"ecrans": { 
+"ecran1": "B8:27:EB:33:44:55", 
+"ecran2": "B8:27:EB:7E:4C:92", 
+"ecran3": "B8:27:EB14:78:9C ", 
+"ecran4": "B8:27:EB:00:26:45", 
+"ecran5": "B8:27:EB:C0:00:08", 
+"intermediaire": "B8:27:EB:42:50:89" 
+},
+"image1": { 
+"Height": 1080, 
+"Width": 420, 
+"ratio": 1.6, 
+"nbPixel": 1680, 
+"posX": 0, 
+"posY": 0, 
+"animation": { 
+"rotation": { 
+"speed": "fast", 
+"direction": "clockwise", 
+"rotation axis": "center" 
+},
+"translation": { 
+"speed": "medium", 
+"direction": "down" 
+} 
+} 
+},
+"image2": { 
+"Height": 1080, 
+"Width": 420, 
+"ratio": 1.6, 
+"nbPixel": 1680, 
+"posX": 420, 
+"posY": 0, 
+"animation": { 
+"rotation": { 
+"speed": "fast", 
+"direction": "clockwise", 
+"rotation axis": "center" 
+},
+"translation": { 
+"speed": "medium", 
+"direction": "down" 
+} 
+} 
+},
+"image3": { 
+"Height": 1080, 
+"Width": 420, 
+"ratio": 1.6, 
+"nbPixel": 1680, 
+"posX": 840, 
+"posY": 0, 
+"animation": { 
+"rotation": { 
+"speed": "fast", 
+"direction": "clockwise", 
+"rotation axis": "center" 
+},
+"translation": { 
+"speed": "medium", 
+"direction": "down" 
+} 
+} 
+},
+"image4": { 
+"Height": 1080, 
+"Width": 420, 
+"ratio": 1.6, 
+"nbPixel": 1680, 
+"posX": 1260, 
+"posY": 0, 
+"animation": { 
+"rotation": { 
+"speed": "fast", 
+"direction": "clockwise", 
+"rotation axis": "center" 
+},
+"translation": { 
+"speed": "medium", 
+"direction": "down" 
+} 
+} 
+} 
+},
+"dictionary": { 
+"name": "translation", 
+"type": ".cpp", 
+"executable": "translationCode", 
+"param": { 
+"number": 4, 
+"parm1": "newParam", 
+"parm2": "newParam", 
+"parm3": "newParam", 
+"parm4": "newParam" 
+} 
+} 
+} 
